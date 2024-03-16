@@ -31,7 +31,7 @@ int main() {
     for (int i = 0; i < ilosc_studentow; i++) {
         sprintf(lista_studentow[i].imie, "Student%d", i+1); 
         lista_studentow[i].ocena = rand() % 101; 
-    )
+    }
 
     sortujStudentow(lista_studentow, ilosc_studentow);
 
